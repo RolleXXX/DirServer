@@ -39,7 +39,7 @@ int check_mkpath(char *dirpath);
 
 int main(int argc, char **argv)
 {
-    char *serverip = "123.249.2.15";
+    char *serverip = "127.0.0.1";
     int port = 8000;
     
     char localpath[] = "/home/u/C AND C++/DIrTrans/";//localpath是下载到本地的地址

@@ -414,7 +414,7 @@ int Client::recvfile(int sockfd, char *server_root, char *localpath, int *final_
 }
 
 int main(){
-    char *ip = "123.249.2.15";
+    char *ip = "127.0.0.1";
     int pt = 8000;
     char *path = "/home/u/C AND C++/DIrTrans/1.png";
     char* localpath = "/home/u/C AND C++/DIrTrans/";//localpath是下载到本地的地址
